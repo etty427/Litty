@@ -1,0 +1,54 @@
+PODS:
+  - Alamofire (4.6.0)
+  - Bolts/Tasks (1.9.0)
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.7.0):
+    - GoogleMaps (= 2.7.0)
+    - GooglePlaces (= 2.7.0)
+  - GooglePlaces (2.7.0):
+    - GoogleMaps/Base (= 2.7.0)
+  - Parse (1.17.1):
+    - Parse/Core (= 1.17.1)
+  - Parse/Core (1.17.1):
+    - Bolts/Tasks (~> 1.9)
+  - PusherSwift (5.1.1)
+  - PushNotifications (0.10.12)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.6.0)
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - Parse
+  - PusherSwift
+  - PusherSwift (~> 5.1.1)
+  - PushNotifications
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Bolts
+    - GoogleMaps
+    - GooglePlacePicker
+    - GooglePlaces
+    - Parse
+    - PusherSwift
+    - PushNotifications
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  GooglePlacePicker: 59ea44db173c58486ad6123993e81feefcbce9c3
+  GooglePlaces: 3d06e6c99654545b4738ce49648745779c25f2ef
+  Parse: d3edaf8c7c722cb33cb83ba7821d015ae32d362d
+  PusherSwift: de9238b6b9faec5275d452e5f43ce9c82b78731e
+  PushNotifications: 1c75fbe833c53f0410de0379d7727a8239a1899a
+
+PODFILE CHECKSUM: 6ac582b700a62d787935c39ccb2a1c367bdf5e12
+
+COCOAPODS: 1.5.3
